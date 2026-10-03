@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="KU MCA Study Material — Cybersecurity Unit 1">
+  <title>KU MCA Study Material | Cybersecurity Unit 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark">KU</div>
+    <div>
+      <div class="brand-title">KU MCA Study Material</div>
+      <div class="brand-sub">Semester 1 • Cybersecurity • Unit 1</div>
+    </div>
+  </div>
+  <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+  <nav id="mainNav">
+    <a href="#home">Home</a>
+    <a href="#syllabus">Unit 1</a>
+    <a href="#attacks">Cyber Attacks</a>
+    <a href="#subjects">Subjects</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="paper-grid"></div>
+  <div class="hero-content">
+    <span class="badge">MCA • KU • STUDY NOTES</span>
+    <h1>Cybersecurity<br><span>Unit 1</span></h1>
+    <p>Exam-ready study material with a clean notebook-inspired design. This page currently focuses only on <b>Cybersecurity — Unit 1</b>.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#syllabus">Open Unit 1</a>
+      <a class="btn ghost" href="#attacks">Browse 50 Attacks</a>
+    </div>
+  </div>
+  <div class="hero-note">
+    <div class="pin"></div>
+    <p>“Write concepts clearly.<br>Revise smartly.<br>Score confidently.”</p>
+    <small>KU MCA Study Material</small>
+  </div>
+</section>
+
+<section class="section" id="syllabus">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">UNIT 01</span>
+      <h2>Cybersecurity — Syllabus</h2>
+    </div>
+    <span class="count">10 Topics</span>
+  </div>
+  <div class="syllabus-grid">
+    <article class="topic active-topic"><span>01</span><div><h3>Introduction</h3><p>History • Relevance • Major Incidents</p></div></article>
+    <article class="topic"><span>02</span><div><h3>Basic Terminology</h3><p>Core cybersecurity terms</p></div></article>
+    <article class="topic"><span>03</span><div><h3>CIA Triad</h3><p>Confidentiality • Integrity • Availability</p></div></article>
+    <article class="topic attack-topic"><span>04</span><div><h3>Cyber Attacks</h3><p>Classification • 50 common/popular attacks</p><a href="#attacks">Study attacks →</a></div></article>
+    <article class="topic"><span>05</span><div><h3>Cyber Crimes</h3><p>Classification</p></div></article>
+    <article class="topic"><span>06</span><div><h3>Cyber Laws and Penalties</h3><p>IT Act, 2000</p></div></article>
+    <article class="topic"><span>07</span><div><h3>System Security</h3><p>Protection of computer systems</p></div></article>
+    <article class="topic"><span>08</span><div><h3>Software Security</h3><p>Secure software concepts</p></div></article>
+    <article class="topic"><span>09</span><div><h3>Web Security</h3><p>Web application protection</p></div></article>
+    <article class="topic"><span>10</span><div><h3>Network Security</h3><p>Network protection concepts</p></div></article>
+  </div>
+  <div class="source-note">The 50-attack definitions below are taken from the uploaded Cybersecurity presentation and presented in a searchable web format.</div>
+</section>
+
+<section class="section attacks-section" id="attacks">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">TOPIC 04</span>
+      <h2>Cyber Attacks</h2>
+      <p class="section-desc">50 common/popular cyberattacks • exam-ready definitions</p>
+    </div>
+    <span class="count" id="attackCount">50 Attacks</span>
+  </div>
+
+  <div class="toolbar">
+    <label class="search-box">
+      <span>⌕</span>
+      <input id="searchInput" type="search" placeholder="Search attack name..." autocomplete="off">
+    </label>
+    <div class="filters" id="filters">
+      <button class="filter active" data-filter="All">All</button>
+      <button class="filter" data-filter="Social Engineering">Social Engineering</button>
+      <button class="filter" data-filter="Malware">Malware</button>
+      <button class="filter" data-filter="Authentication & Password">Authentication</button>
+      <button class="filter" data-filter="Network">Network</button>
+      <button class="filter" data-filter="Web & Application">Web / App</button>
+      <button class="filter" data-filter="System & Access">System / Access</button>
+    </div>
+  </div>
+
+  <div id="attackList" class="attack-list"></div>
+  <div id="emptyState" class="empty hidden">No matching attack found. Try another keyword.</div>
+</section>
+
+<section class="section exam-section">
+  <div class="exam-card">
+    <span class="eyebrow">EXAM TIP</span>
+    <h2>How to prepare Cyber Attacks</h2>
+    <div class="exam-points">
+      <div><b>1.</b><span>Learn the <strong>definition</strong> of each attack first.</span></div>
+      <div><b>2.</b><span>Remember the <strong>main target/impact</strong> of the attack.</span></div>
+      <div><b>3.</b><span>For long answers, write <strong>Definition → Working/Concept → Impact → Prevention</strong> where applicable.</span></div>
+      <div><b>4.</b><span>Use the search box for quick revision before exams.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="subjects">
+  <div class="section-head">
+    <div><span class="eyebrow">MCA • SEMESTER 1</span><h2>Subjects</h2></div>
+  </div>
+  <div class="subject-grid">
+    <div class="subject current"><span>01</span><h3>Java Programming</h3><small>Coming soon</small></div>
+    <div class="subject current"><span>02</span><h3>Data Structures & Algorithms</h3><small>Coming soon</small></div>
+    <div class="subject selected"><span>03</span><h3>Cybersecurity</h3><small>Unit 1 available</small></div>
+    <div class="subject"><span>04</span><h3>Machine Learning</h3><small>Coming soon</small></div>
+    <div class="subject"><span>05</span><h3>Research Methodology</h3><small>Coming soon</small></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div><strong>KU MCA Study Material</strong><span> • Cybersecurity Unit 1</span></div>
+  <div>Academic study resource • Share the GitHub Pages link with classmates</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
